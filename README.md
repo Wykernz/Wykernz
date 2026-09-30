@@ -1,16 +1,20 @@
-## Hi there 👋
+# 👋 Hi, I'm Wykernz
 
-<!--
-**Wykernz/Wykernz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a Frontend Engineer specializing in WebGL, Canvas2D, and high-performance micro-interactions.
 
-Here are some ideas to get you started:
+### ✨ Bio-Interface Cursor Demo
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <a href="https://Wykernz.github.io/Wykernz/">
+    <img src="https://img.shields.io/badge/▶_LIVE_DEMO-6effc4?style=for-the-badge&logo=githubpages&logoColor=black" />
+  </a>
+</p>
+
+You can view the live demo of the custom Alien/Bio-Interface cursor by clicking the button above! It features:
+- 60 FPS performance
+- Magnetic hover effects
+- Shockwave particle bursts on click
+- Segmented fluid trailing ring
+
+---
+*Built with pure JavaScript and HTML5 Canvas.*
