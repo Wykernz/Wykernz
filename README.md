@@ -1,9 +1,9 @@
 # 👋 Hi, I'm Wykernz
 
-🎓 **BS Computer Science Student** · Learning Frontend & Interactive Web  
+🎓 **BS Computer Science Student** · Learning Frontend, Backend, Mobile Programming  
 📍 Philippines
 
-I'm currently learning JavaScript, Canvas animations, and clean UI engineering. Building small projects to sharpen my fundamentals.
+I'm currently learning JavaScript, Python, Java. Building small projects to sharpen my fundamentals.
 
 ---
 
@@ -11,13 +11,6 @@ I'm currently learning JavaScript, Canvas animations, and clean UI engineering. 
 
 ### 👽 Bio-Interface Cursor
 A custom animated cursor built with pure JavaScript + HTML5 Canvas.
-
-**What I practiced:**
-- `requestAnimationFrame` animation loop
-- Canvas 2D drawing
-- Event listeners (`mousemove`, `mousedown`)
-- Lerp (linear interpolation) for smooth motion
-- ES6 classes
 
 🔗 **[Try the live demo →](https://Wykernz.github.io/Wykernz/)**
 
