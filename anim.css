@@ -1,0 +1,112 @@
+/* ============================================================
+   BASE
+============================================================ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg-0: #05070a;
+  --bg-1: #0a0f14;
+  --line: rgba(120, 255, 214, 0.18);
+  --text: #d6f5ec;
+  --accent: #6effc4;
+  --accent-dim: rgba(110, 255, 196, 0.35);
+}
+
+html, body {
+  min-height: 100vh;
+  background:
+    radial-gradient(1200px 600px at 70% -10%, rgba(110,255,196,0.06), transparent 60%),
+    radial-gradient(800px 400px at 10% 110%, rgba(255,45,149,0.05), transparent 60%),
+    var(--bg-0);
+  color: var(--text);
+  font-family: 'SF Mono', 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace;
+  overflow-x: hidden;
+}
+
+/* ============================================================
+   CURSOR CANVAS
+============================================================ */
+#bio-cursor {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;   /* clicks pass through */
+  z-index: 99999;
+  mix-blend-mode: screen; /* glowing overlay vibe */
+}
+
+/* Hide the native cursor everywhere — but only when JS is active.
+   The class is added by the script so touch/reduced-motion users
+   keep the native cursor. */
+body.bio-cursor-active,
+body.bio-cursor-active * {
+  cursor: none !important;
+}
+
+/* ============================================================
+   DEMO STAGE (replace with your own content)
+============================================================ */
+.stage {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  gap: 3rem;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hud__tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 0.35em;
+  color: var(--accent-dim);
+  border: 1px solid var(--line);
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hud__title {
+  font-size: clamp(2.5rem, 8vw, 6rem);
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  line-height: 1;
+  background: linear-gradient(180deg, #ffffff 0%, var(--accent) 120%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hud__sub {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  color: rgba(214, 245, 236, 0.5);
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.interactive {
+  font: inherit;
+  font-size: 0.8rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  padding: 0.9rem 1.8rem;
+  color: var(--text);
+  background: rgba(110, 255, 196, 0.03);
+  border: 1px solid var(--line);
+  text-decoration: none;
+  transition: background 0.25s, border-color 0.25s, color 0.25s;
+  position: relative;
+}
+
+.interactive:hover {
+  background: rgba(110, 255, 196, 0.08);
+  border-color: var(--accent);
+  color: var(--accent);
+}

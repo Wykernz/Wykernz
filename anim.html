@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bio-Interface Cursor — Demo</title>
+  <link rel="stylesheet" href="anim.css" />
+</head>
+<body>
+
+  <!-- The cursor canvas: fixed, full-screen, non-interactive -->
+  <canvas id="bio-cursor" aria-hidden="true"></canvas>
+
+  <!-- Demo content to hover/click -->
+  <main class="stage">
+    <header class="hud">
+      <span class="hud__tag">WEYLAND-YUTANI // INTERFACE v3.7</span>
+      <h1 class="hud__title">BIO&nbsp;INTERFACE</h1>
+      <p class="hud__sub">Hover · Click · Move — the cursor reacts.</p>
+    </header>
+
+    <nav class="controls">
+      <button class="interactive" data-label="INITIATE">Initiate</button>
+      <a href="#" class="interactive" data-label="ACCESS LOG">Access Log</a>
+      <button class="interactive" data-label="PURGE">Purge</button>
+    </nav>
+  </main>
+
+  <script src="anim.js"></script>
+  <script>
+    // Optional: expose for console tinkering
+    window.bioCursor = new BioCursor({
+      // override any config here, e.g.:
+      // palette: { core: '#ff2d95' }
+    });
+  </script>
+</body>
+</html>
