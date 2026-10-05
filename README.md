@@ -7,10 +7,6 @@ I'm currently learning JavaScript, Python, and Java. Building small projects to 
 
 ---
 
-## 🚀 What I'm Building
-
-### 👽 Bio-Interface Cursor
-A 60 FPS custom-cursor engine built with pure JavaScript and HTML5 Canvas. Inspired by sci-fi HUD interfaces — every interaction is designed to feel *alive*.
 
 <p align="center">
   <img src="./assets/bio-cursor-demo.gif" alt="Bio-Interface Cursor — auto-playing demo" width="720" />
@@ -20,12 +16,6 @@ A 60 FPS custom-cursor engine built with pure JavaScript and HTML5 Canvas. Inspi
   <sub><em>Live preview · trailing ring · magnetic hover · shockwave on click</em></sub>
 </p>
 
-**Built with:**
-- `requestAnimationFrame` delta-timed animation loop
-- Dual-layer `lerp` (linear interpolation) for fluid trailing motion
-- Throttled `getBoundingClientRect` hit-testing for magnetic hover
-- Pooled particle system for zero-allocation click effects
-- Auto-disables on `prefers-reduced-motion` and touch devices
 
 <p align="center">
   <a href="https://Wykernz.github.io/Wykernz/">
