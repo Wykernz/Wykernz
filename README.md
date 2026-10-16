@@ -18,9 +18,6 @@ I'm currently learning JavaScript, Python, and Java. Building small projects to 
 
 
 <p align="center">
-  <a href="https://Wykernz.github.io/Wykernz/">
-    <img src="https://img.shields.io/badge/▶_TRY_IT_LIVE-0a0f14?style=for-the-badge&logo=googlechrome&logoColor=6effc4" />
-  </a>
   <a href="https://github.com/Wykernz/Wykernz">
     <img src="https://img.shields.io/badge/VIEW_SOURCE-0a0f14?style=for-the-badge&logo=github&logoColor=6effc4" />
   </a>
