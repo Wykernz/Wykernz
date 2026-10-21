@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Wykernz
 
-🎓 **BS Computer Science Student** · Learning Frontend, Backend, Mobile Programming  
+🎓 **NORTH WEST SAMAR STATE UNIVERSITY BS Computer Science Student** · Learning Frontend, Backend, Web Development and,  Mobile Programming  
 📍 Philippines
 
 I'm currently learning JavaScript, Python, and Java. Building small projects to sharpen my fundamentals — one concept at a time.
